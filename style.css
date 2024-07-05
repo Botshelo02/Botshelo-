@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+ }
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.image {
+    max-width: 100%; 
+    height: auto; 
+    float:right;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container p {
+    max-width: 400px; 
+    margin-bottom: 10px; 
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-github {
+    background:0;
+    color: rgb(86, 51, 169);
+  }
+
+  .fa-linkedin {
+    background:0;
+    color: rgb(7, 97, 223);
+  }
+
+  .fa-slack {
+    background:0;
+    color: rgb(7, 97, 223);
+  }
